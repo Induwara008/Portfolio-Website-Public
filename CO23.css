@@ -1,0 +1,118 @@
+/* Style Script - font-family: 'Style Script', cursive; */
+/* Open Sans - font-family: 'Open Sans', sans-serif; */
+/* Teko - font-family: ', sanTeko's-serif; */
+/* Lobster - font-family: 'Lobster', cursive; */
+/* Bebas Neue - font-family: 'Bebas Neue', cursive; */
+/* WindSong - font-family: 'Bebas Neue', cursive;
+               font-family: 'WindSong', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Body Decoration */
+body{
+    /*background-color: #eeeeee;*/
+    background-image: url(https://cdn.wallpapersafari.com/82/47/DiIkOU.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/* Header Styling */
+.Header{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+/* Header Background Color */
+.Header{
+    background-color: #232526;
+    /*background: -webkit-linear-gradient(to right, #232526, #414345);*/
+}
+/* Navigation Styling */
+.Nav ul li{
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    /*font-family: 'Open Sans', sans-serif;*/
+    display: inline-block;
+}
+/* Navigation Styling */
+.Nav ul li a{
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #cfdef3;
+    line-height: 71.391px;
+}
+/* Logo Style */
+.Logo{
+    max-width: 100px;
+}
+/* Floating */
+.Logo{
+    float: left;
+}
+.Nav{
+    float: right;
+}
+/* Clear Fix */
+.Header::after{
+    content: " ";
+    clear: both;
+    display: block;
+    visibility: none;
+}
+/* Navigation Fix */
+.Nav{
+    padding: 0px 120px;
+}
+.Logo{
+    padding: 0px 75px;
+}
+/* My Title Starting */
+.My-name{
+    font-family: 'Lobster', cursive;
+    color: #1c92d2;
+    font-size: 35px;
+}
+.My_name{
+    color: #A1FFCE;
+}
+/* Padding and Margin */
+.My-name{
+    padding: 10px 25px;
+}
+.class{
+    color: #1c92d2;
+    font-family: 'Style Script', cursive;
+    padding: 25px 60px;
+    font-size: 25px;
+}
+/* Hovering */
+.cod:hover{
+    color: red;
+    font-size: 100px;
+}
+.cod1:hover{
+    color: red;
+    font-size: 100px;
+}
+.cod2:hover{
+    color: #93291E;
+    font-family: 'Style Script', cursive;
+    font-weight: 1000;
+    font-display: block;
+    font-size: 95px;
+}
+.Nav ul li a:hover{
+    color: #ED213A;
+    font-size: 35px;
+}
+/* paragraph */
+.paragraph{
+    font-family: 'Open Sans', sans-serif;
+    color: #4AC29A;
+    padding: 5px 15px;
+    font-size: 17px;
+}
+.Header{
+    position: sticky;
+}

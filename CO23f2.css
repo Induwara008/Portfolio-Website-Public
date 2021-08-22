@@ -1,0 +1,319 @@
+/* Style Script - font-family: 'Style Script', cursive; */
+/* Open Sans - font-family: 'Open Sans', sans-serif; */
+/* Teko - font-family: ', sanTeko's-serif; */
+/* Lobster - font-family: 'Lobster', cursive; */
+/* Bebas Neue - font-family: 'Bebas Neue', cursive; */
+/* WindSong - font-family: 'Bebas Neue', cursive;
+               font-family: 'WindSong', cursive; */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Pic 1 Styling */
+#pic1{
+    float: right;
+    margin-right: 25px;
+    margin-top: 25px;
+    border: 3px solid #24243e;
+}
+#pic1:hover{
+    border: 7px solid whitesmoke;
+}
+.paragraph{
+    font-size: 22px;
+    color:#DBDBDB;
+    font-family: 'Bebas Neue', cursive;
+}
+/* Captation */
+.cap{
+    padding-left: 285px;
+    color: #bdc3c7;
+    font-size: 30px;
+}
+/* Table */
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
+tr, td{
+    color:  #F2F2F2;
+    font-size: 25px;
+}
+thead{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    background-color: #240b36;
+}
+tr:nth-child(2n){
+    background: #605C3C;
+}
+tbody{
+    background-color: #870000;
+}
+.td{
+    text-align: center;
+}
+.ta{
+    padding: 0px 35px;
+}
+.cap{
+    padding: 25px 285px;
+}
+table{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+
+/* Nav Work */
+.form{
+    padding: 10px 25px;
+    font-size: 15px;
+    font-family: 'Bebas Neue', cursive;
+}
+input, textarea{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+    color: black;
+    box-shadow: 5px 5px 5px black;
+}
+label{
+   padding-left: 15px; 
+   font-size: 22px;
+}
+textarea{
+    max-width: 750px;
+    max-height: 200px;
+}
+#name, #email, #text, #Send{
+    margin-bottom: 8px;
+}
+input:hover, textarea:hover, input:focus, textarea:focus{
+    box-shadow: 8px 8px 8px solid gray;
+    border-color: 2px solid grey;
+}
+#Send{
+    width: 90px;
+    height: 50px;
+    font-size: 23px;
+    font-family: ', sanTeko's-serif; 
+    color: White;
+    background-color: Red;
+}
+.paragraph{
+    background: linear-gradient(to right, #000046, #1cb5e0);
+    width: 725px;
+    margin-left: 15px;
+}
+.w1{
+    margin: 15px 25px;
+    margin-bottom: 45px;
+    border: 5px solid whitesmoke;
+}
+.w2{
+    margin: 15px 25px;
+    border: 5px solid whitesmoke;
+}
+.w3{
+    margin: 15px 25px;
+    border: 5px solid whitesmoke;
+}
+.w4{
+    margin: 15px 25px;
+    margin-bottom: 45px;
+    border: 5px solid whitesmoke;
+}
+.w5{
+    margin: 15px 25px;
+    margin-bottom: 45px;
+    border: 5px solid whitesmoke;
+}
+.w6{
+    margin: 15px 25px;
+    border: 5px solid whitesmoke;
+}
+.w7{
+    margin: 15px 25px;
+    border: 5px solid whitesmoke;
+}
+.w8{
+    margin: 15px 25px;
+    border: 5px solid whitesmoke;
+}
+.w1:hover, .w2:hover, .w3:hover, .w4:hover, .w5:hover, .w6:hover, .w7:hover, .w8:hover{
+    border: 10px solid rgb(143, 143, 143);
+}
+.foot{
+    background: #1f4037;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 60px;
+}
+/*SDAFADHKGVKUVGBH*/
+body{
+	background: #2d333f;
+}
+
+.wrapper{
+	position: absolute;
+}
+
+.btn_grp{
+	display: flex;
+}
+
+.btn_grp .btn{
+	width: 225px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: #fff;
+	margin: 0 10px;
+	border-radius: 3px;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 14px;
+}
+/*Background*/
+.btn_grp .btn.btn_info,
+.alert_item.alert_info{
+	background: rgb(0, 37, 97);
+	color: rgb(0, 154, 196);
+}
+
+.btn_grp .btn.btn_warning,
+.alert_item.alert_warning{
+	background: rgb(94, 14, 0);
+	color: rgb(252, 227, 202);
+}
+
+.btn_grp .btn.btn_error,
+.alert_item.alert_error{
+	background: rgb(209, 181, 0);
+	color: rgb(54, 54, 54);
+}
+
+.btn_grp .btn.btn_success,
+.alert_item.alert_success{
+	background: rgb(61, 0, 94);
+	color: rgb(234, 196, 255);
+}
+/*Background Hover*/
+.btn_grp .btn.btn_info:hover{
+	background: rgb(0, 47, 255);
+}
+
+.btn_grp .btn.btn_warning:hover{
+	background: rgb(255, 0, 0);
+}
+
+.btn_grp .btn.btn_error:hover{
+	background: rgb(255, 234, 0);
+}
+
+.btn_grp .btn.btn_success:hover{
+	background: rgb(144, 0, 255);
+}
+
+.alert_wrapper{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	visibility: hidden;
+}
+
+.alert_backdrop{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #2d333f;
+	opacity: 0.9;
+	z-index: 2;
+}
+
+.alert_wrapper .alert_item{
+	z-index: 3;	
+	position: fixed;
+	top: -100%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	align-items: center;
+	padding: 25px 50px;
+	border-radius: 3px;
+	transition: all 0.2s ease;
+}
+
+.alert_wrapper .alert_item .data{
+	margin: 0 50px;
+}
+.alert_wrapper .alert_item .data .title{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.alert_wrapper .alert_item .data span{
+	font-weight: 700;
+}
+.alert_wrapper .alert_item .data .sub{
+	font-size: 14px;
+	font-weight: 100;
+}
+.alert_wrapper .alert_item .icon{
+	font-size: 32px;
+}
+.alert_wrapper .alert_item .close{
+	cursor: pointer;
+}
+
+.alert_item.alert_info .close:hover{
+	color: #a5c7d8;
+}
+
+.alert_item.alert_warning .close:hover{
+	color: #dcd4a2;
+}
+
+.alert_item.alert_error .close:hover{
+	color: #c79995;
+}
+
+.alert_item.alert_success .close:hover{
+	color: #adc5a5;
+}
+
+.alert_wrapper.active{
+	visibility: visible;
+}
+.alert_wrapper.active .alert_item{
+	top: 50%;
+}
+.footer{
+    margin-left: 150px;
+    padding-top: 5px;
+}
+body{
+    /*background-color: #eeeeee;*/
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#bb{
+    color: #a5c7d8;
+    margin: 18px 0px;
+}
+.copy{
+    float: right;
+    margin: 10px 80px;
+    font-size: x-large;
+    font-family: 'Style Script', cursive;
+}
